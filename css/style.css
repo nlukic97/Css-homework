@@ -1,0 +1,67 @@
+body {
+	background-color: #848484;
+	font-family: 'Times New Roman', serif;
+}
+
+/*Sections for specific formating*/
+.section-1 h1 {
+	text-align: center;
+	color: #a4ef7c;
+}
+
+.section-1 img {
+	height: 350px;
+	display: block; /* Mora da bude block element da bi radilo 'margin:auto;' .*/
+	margin: auto;
+	border:24px solid green;
+}
+
+.section-2 h2{
+	color: #0c0c87;
+}
+
+.section-2 p {
+	color:#a2c8d3;
+	font-size: 24px;
+	font-family: 'Arial', sans-serif;
+}
+
+.section-3 {
+	color: #fff;
+	font-size: 16px;
+}
+
+.section-4 {
+	font-family: 'Arial', sans-serif;
+	color: #fff;
+}
+
+.section-4 a {
+	color: #511a84;
+}
+
+.section-5 {
+	color: orange;
+}
+
+/*The list*/
+.list {
+	color: yellow;
+}
+
+/* Table*/
+table {
+	color: #000;
+	background-color: #a4ef7c;
+	float: right;
+	
+}
+
+th, td {
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	padding: 3px;
+}
+
